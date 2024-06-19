@@ -66,8 +66,8 @@ training_df['Date'] = pd.to_datetime(training_df['Date'])
 biometric_df['Date'] = pd.to_datetime(biometric_df['Date'])
 scouting_df['Date'] = pd.to_datetime(scouting_df['Date'])
 
-# Streamlit App
-st.title("Player Performance Dashboard")
+st.write('Chika Performance Heatmap')
+st.image('sakaavgmap.png', width=400)
 
 
 # Technical Skills
